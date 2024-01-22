@@ -6,8 +6,12 @@ module.exports = {
       // membuat custom spacing
       spacing:{
       13: '3.25rem'
-    }},
-    
+    }
+  
+  },
+    fontFamily:{
+      'poppins' : ['Poppins']
+    }
   },
   plugins: [],
 }
