@@ -614,6 +614,14 @@ video {
   float: left;
 }
 
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
 .m-13 {
   margin: 3.25rem;
 }
