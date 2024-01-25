@@ -805,6 +805,10 @@ video {
   gap: 1.25rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-y-scroll {
   overflow-y: scroll;
 }
@@ -828,6 +832,36 @@ video {
 .rounded-s-lg {
   border-start-start-radius: 0.5rem;
   border-end-start-radius: 0.5rem;
+}
+
+.rounded-t {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.rounded-t-full {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.rounded-tl-full {
+  border-top-left-radius: 9999px;
+}
+
+.rounded-tl {
+  border-top-left-radius: 0.25rem;
+}
+
+.rounded-tr-full {
+  border-top-right-radius: 9999px;
+}
+
+.rounded-bl-full {
+  border-bottom-left-radius: 9999px;
+}
+
+.rounded-br-full {
+  border-bottom-right-radius: 9999px;
 }
 
 .border {
@@ -960,6 +994,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-6 {
@@ -1193,6 +1232,30 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:order-1 {
+    order: 1;
+  }
+
+  .lg\:order-6 {
+    order: 6;
+  }
+
+  .lg\:order-4 {
+    order: 4;
+  }
+
+  .lg\:order-5 {
+    order: 5;
+  }
+
+  .lg\:order-3 {
+    order: 3;
+  }
+
+  .lg\:order-2 {
+    order: 2;
+  }
+
   .lg\:max-w-lg {
     max-width: 32rem;
   }
